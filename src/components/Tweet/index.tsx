@@ -14,7 +14,7 @@ import {
   ImageContent,
   Retweeted,
   RetweetIcon,
-  RocketseatIcon,
+  RetweetedIcon,
   Status,
 } from './styles';
 
@@ -22,7 +22,7 @@ const Tweet: FC = () => {
   return (
     <Container>
       <Retweeted>
-        <RocketseatIcon />
+        <RetweetedIcon />
         You retweeted
       </Retweeted>
 
