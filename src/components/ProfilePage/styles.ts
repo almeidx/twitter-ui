@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
-import { Cake, LocationOn } from '../../styles/icons';
-import Button from '../Button';
+import { Cake, LocationOn } from "../../styles/icons";
+import Button from "../Button";
 
 export const Avatar = styled.div`
   width: max(45px, min(135px, 22vw));
@@ -35,7 +35,8 @@ export const Container = styled.div`
   overflow-y: auto;
 
   scrollbar-width: none; /* Firefox */
-  ::-webkit-scrollbar { /* Chromium */
+  ::-webkit-scrollbar {
+    /* Chromium */
     display: none;
   }
 `;
@@ -107,8 +108,12 @@ const Icon = css`
   color: var(--gray);
 `;
 
-export const CakeIcon = styled(Cake)`${Icon}`;
-export const LocationIcon = styled(LocationOn)`${Icon}`;
+export const CakeIcon = styled(Cake)`
+  ${Icon}
+`;
+export const LocationIcon = styled(LocationOn)`
+  ${Icon}
+`;
 
 export const EditButton = styled(Button)`
   position: absolute;

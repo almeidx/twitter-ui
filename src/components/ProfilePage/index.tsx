@@ -1,17 +1,8 @@
-import React, { FC } from 'react';
+import React, { FC } from "react";
 
-import Feed from '../Feed';
+import Feed from "../Feed";
 
-import {
-  Avatar,
-  Banner,
-  CakeIcon,
-  Container,
-  EditButton,
-  Followage,
-  LocationIcon,
-  ProfileData,
-} from './styles';
+import { Avatar, Banner, CakeIcon, Container, EditButton, Followage, LocationIcon, ProfileData } from "./styles";
 
 const ProfilePage: FC = () => {
   return (
@@ -54,6 +45,6 @@ const ProfilePage: FC = () => {
       <Feed />
     </Container>
   );
-}
+};
 
 export default ProfilePage;

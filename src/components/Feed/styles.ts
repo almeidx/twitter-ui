@@ -20,7 +20,7 @@ export const Tab = styled.div`
   border-bottom: 2px solid var(--twitter);
 
   &:hover {
-    background: var(--twitter-dark-hover)
+    background: var(--twitter-dark-hover);
   }
 `;
 

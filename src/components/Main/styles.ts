@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-import { ArrowLeft, Email, Home, Notifications, Search } from '../../styles/icons';
+import { ArrowLeft, Email, Home, Notifications, Search } from "../../styles/icons";
 
 export const BackIcon = styled(ArrowLeft)`
   width: 24px;
@@ -91,12 +91,21 @@ const Icon = css`
 
   fill: var(--gray);
 
-  &:hover, &.active {
+  &:hover,
+  &.active {
     fill: var(--twitter);
   }
 `;
 
-export const BellIcon = styled(Notifications)`${Icon}`;
-export const EmailIcon = styled(Email)`${Icon}`;
-export const HomeIcon = styled(Home)`${Icon}`;
-export const SearchIcon = styled(Search)`${Icon}`;
+export const BellIcon = styled(Notifications)`
+  ${Icon}
+`;
+export const EmailIcon = styled(Email)`
+  ${Icon}
+`;
+export const HomeIcon = styled(Home)`
+  ${Icon}
+`;
+export const SearchIcon = styled(Search)`
+  ${Icon}
+`;

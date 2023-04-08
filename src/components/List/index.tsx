@@ -1,6 +1,6 @@
-import React, { FC, ReactNode } from 'react';
+import React, { FC, ReactNode } from "react";
 
-import { Container, Item, Title } from './styles';
+import { Container, Item, Title } from "./styles";
 
 interface ListProps {
   title: string;
@@ -14,9 +14,11 @@ const List: FC<ListProps> = ({ elements, title }) => {
         <Title>{title}</Title>
       </Item>
 
-      {elements.map((e, i) => <Item key={i}>{e}</Item>)}
+      {elements.map((e, i) => (
+        <Item key={i}>{e}</Item>
+      ))}
     </Container>
   );
-}
+};
 
 export default List;

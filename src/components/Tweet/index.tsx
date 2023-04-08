@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React, { FC } from "react";
 
 import {
   Avatar,
@@ -16,7 +16,7 @@ import {
   RetweetIcon,
   RetweetedIcon,
   Status,
-} from './styles';
+} from "./styles";
 
 const Tweet: FC = () => {
   return (
@@ -59,6 +59,6 @@ const Tweet: FC = () => {
       </Body>
     </Container>
   );
-}
+};
 
 export default Tweet;

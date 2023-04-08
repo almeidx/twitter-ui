@@ -1,11 +1,6 @@
-import React, { FC } from 'react';
+import React, { FC } from "react";
 
-import {
-  Avatar,
-  Container,
-  FollowButton,
-  Info,
-} from './styles';
+import { Avatar, Container, FollowButton, Info } from "./styles";
 
 interface FollowOptions {
   name: string;
@@ -27,6 +22,6 @@ const FollowSuggestion: FC<FollowOptions> = ({ name, nickname }) => {
       <FollowButton outlined>Follow</FollowButton>
     </Container>
   );
-}
+};
 
 export default FollowSuggestion;

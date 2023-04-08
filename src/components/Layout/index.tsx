@@ -1,10 +1,10 @@
-import React, { FC } from 'react';
+import React, { FC } from "react";
 
-import MenuBar from '../MenuBar'
-import Main from '../Main'
-import SideBar from '../SideBar'
+import MenuBar from "../MenuBar";
+import Main from "../Main";
+import SideBar from "../SideBar";
 
-import { Container, Wrapper } from './styles';
+import { Container, Wrapper } from "./styles";
 
 const Layout: FC = () => {
   return (
@@ -16,6 +16,6 @@ const Layout: FC = () => {
       </Wrapper>
     </Container>
   );
-}
+};
 
 export default Layout;

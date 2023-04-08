@@ -1,6 +1,6 @@
-import React, { FC } from 'react';
+import React, { FC } from "react";
 
-import Button from '../Button';
+import Button from "../Button";
 
 import {
   Avatar,
@@ -16,7 +16,7 @@ import {
   ProfileData,
   ProfileIcon,
   Topside,
-} from './styles';
+} from "./styles";
 
 const MenuBar: FC = () => {
   return (
@@ -62,6 +62,6 @@ const MenuBar: FC = () => {
       </Botside>
     </Container>
   );
-}
+};
 
 export default MenuBar;

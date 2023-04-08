@@ -1,7 +1,7 @@
-import React, { FC } from 'react';
+import React, { FC } from "react";
 
-import Tweet from '../Tweet';
-import { Container, Tab, Tweets } from './styles';
+import Tweet from "../Tweet";
+import { Container, Tab, Tweets } from "./styles";
 
 const Feed: FC = () => {
   return (
@@ -19,6 +19,6 @@ const Feed: FC = () => {
       </Tweets>
     </Container>
   );
-}
+};
 
 export default Feed;

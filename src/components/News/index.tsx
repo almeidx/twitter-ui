@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import { Container } from './styles';
+import { Container } from "./styles";
 
 const News: React.FC = () => {
   return (
@@ -9,6 +9,6 @@ const News: React.FC = () => {
       <strong>Things and Stuffs</strong>
     </Container>
   );
-}
+};
 
 export default News;

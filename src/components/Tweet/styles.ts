@@ -1,6 +1,6 @@
-import styled, { css } from 'styled-components';
+import styled, { css } from "styled-components";
 
-import { Chat, Retweet, Favorite } from '../../styles/icons';
+import { ChatBubbleLeftEllipsis, Retweet, Favorite } from "../../styles/icons";
 
 export const Container = styled.div`
   display: flex;
@@ -119,7 +119,8 @@ export const Icons = styled.div`
   margin: 11px auto 0;
   width: 100%; /** Mobile */
 
-  @media (min-width: 330px) { /* Bigger screen */
+  @media (min-width: 330px) {
+    /* Bigger screen */
     width: 63%;
   }
 
@@ -171,8 +172,14 @@ const Icon = css`
   height: 19px;
 `;
 
-export const CommentIcon = styled(Chat)`${Icon}`;
+export const CommentIcon = styled(ChatBubbleLeftEllipsis)`
+  ${Icon}
+`;
 
-export const RetweetIcon = styled(Retweet)`${Icon}`;
+export const RetweetIcon = styled(Retweet)`
+  ${Icon}
+`;
 
-export const LikeIcon = styled(Favorite)`${Icon}`;
+export const LikeIcon = styled(Favorite)`
+  ${Icon}
+`;

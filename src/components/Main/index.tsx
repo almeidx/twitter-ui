@@ -1,6 +1,6 @@
-import React, { FC } from 'react';
+import React, { FC } from "react";
 
-import ProfilePage from '../ProfilePage';
+import ProfilePage from "../ProfilePage";
 
 import {
   BackIcon,
@@ -11,8 +11,8 @@ import {
   Header,
   HomeIcon,
   ProfileInfo,
-  SearchIcon
-} from './styles';
+  SearchIcon,
+} from "./styles";
 
 const Main: FC = () => {
   return (
@@ -38,6 +38,6 @@ const Main: FC = () => {
       </BottomMenu>
     </Container>
   );
-}
+};
 
 export default Main;

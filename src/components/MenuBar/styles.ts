@@ -1,14 +1,6 @@
-import styled, { css } from 'styled-components';
+import styled, { css } from "styled-components";
 
-import {
-  Email,
-  ExitToApp,
-  FavoriteBorder,
-  Home,
-  Logo as LogoIcon,
-  Notifications,
-  Person,
-} from '../../styles/icons';
+import { Email, ExitToApp, FavoriteBorder, Home, Logo as LogoIcon, Notifications, Person } from "../../styles/icons";
 
 export const Container = styled.div`
   display: none;
@@ -105,7 +97,8 @@ export const MenuButton = styled.button`
     background: var(--twitter-dark-hover);
   }
 
-  &:hover, &.active {
+  &:hover,
+  &.active {
     span,
     svg {
       color: var(--twitter);
@@ -122,11 +115,21 @@ const Icon = css`
   color: var(--white);
 `;
 
-export const HomeIcon = styled(Home)`${Icon}`;
-export const BellIcon = styled(Notifications)`${Icon}`;
-export const EmailIcon = styled(Email)`${Icon}`;
-export const FavoriteIcon = styled(FavoriteBorder)`${Icon}`;
-export const ProfileIcon = styled(Person)`${Icon}`;
+export const HomeIcon = styled(Home)`
+  ${Icon}
+`;
+export const BellIcon = styled(Notifications)`
+  ${Icon}
+`;
+export const EmailIcon = styled(Email)`
+  ${Icon}
+`;
+export const FavoriteIcon = styled(FavoriteBorder)`
+  ${Icon}
+`;
+export const ProfileIcon = styled(Person)`
+  ${Icon}
+`;
 
 export const Botside = styled.div`
   margin-top: 20px;
