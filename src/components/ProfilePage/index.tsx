@@ -18,7 +18,7 @@ const ProfilePage: FC = () => {
         <h2>@realDonaldTrump</h2>
 
         <p>
-          Nice twitter eh <a href="https://almeidx.me">@this_is_a_mention</a>
+          Nice twitter eh <a href="https://almeidx.dev">@this_is_a_mention</a>
         </p>
 
         <ul>
