@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 interface ButtonProps {
-  outlined?: boolean;
+	outlined?: boolean;
 }
 
 export default styled.button<ButtonProps>`

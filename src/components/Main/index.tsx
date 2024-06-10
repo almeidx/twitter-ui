@@ -1,43 +1,43 @@
-import React, { FC } from "react";
+import React, { type FC } from "react";
 
 import ProfilePage from "../ProfilePage";
 
 import {
-  BackIcon,
-  BellIcon,
-  BottomMenu,
-  Container,
-  EmailIcon,
-  Header,
-  HomeIcon,
-  ProfileInfo,
-  SearchIcon,
+	BackIcon,
+	BellIcon,
+	BottomMenu,
+	Container,
+	EmailIcon,
+	Header,
+	HomeIcon,
+	ProfileInfo,
+	SearchIcon,
 } from "./styles";
 
 const Main: FC = () => {
-  return (
-    <Container>
-      <Header>
-        <button>
-          <BackIcon />
-        </button>
+	return (
+		<Container>
+			<Header>
+				<button type="button">
+					<BackIcon />
+				</button>
 
-        <ProfileInfo>
-          <strong>Almeida</strong>
-          <span>69,420 Tweets</span>
-        </ProfileInfo>
-      </Header>
+				<ProfileInfo>
+					<strong>Almeida</strong>
+					<span>69,420 Tweets</span>
+				</ProfileInfo>
+			</Header>
 
-      <ProfilePage />
+			<ProfilePage />
 
-      <BottomMenu>
-        <HomeIcon className="active" />
-        <SearchIcon />
-        <BellIcon />
-        <EmailIcon />
-      </BottomMenu>
-    </Container>
-  );
+			<BottomMenu>
+				<HomeIcon className="active" />
+				<SearchIcon />
+				<BellIcon />
+				<EmailIcon />
+			</BottomMenu>
+		</Container>
+	);
 };
 
 export default Main;

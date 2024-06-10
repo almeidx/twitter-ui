@@ -1,6 +1,14 @@
 import styled, { css } from "styled-components";
 
-import { Email, ExitToApp, FavoriteBorder, Home, Logo as LogoIcon, Notifications, Person } from "../../styles/icons";
+import {
+	Email,
+	ExitToApp,
+	FavoriteBorder,
+	Home,
+	Logo as LogoIcon,
+	Notifications,
+	Person,
+} from "../../styles/icons";
 
 export const Container = styled.div`
   display: none;

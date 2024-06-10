@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-import { ChatBubbleLeftEllipsis, Retweet, Favorite } from "../../styles/icons";
+import { ChatBubbleLeftEllipsis, Favorite, Retweet } from "../../styles/icons";
 
 export const Container = styled.div`
   display: flex;

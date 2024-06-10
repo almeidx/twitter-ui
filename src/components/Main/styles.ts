@@ -1,6 +1,12 @@
 import styled, { css } from "styled-components";
 
-import { ArrowLeft, Email, Home, Notifications, Search } from "../../styles/icons";
+import {
+	ArrowLeft,
+	Email,
+	Home,
+	Notifications,
+	Search,
+} from "../../styles/icons";
 
 export const BackIcon = styled(ArrowLeft)`
   width: 24px;
